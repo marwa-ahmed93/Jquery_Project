@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font-awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- css link -->
+  <link rel="stylesheet" href="css/skitter.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>MY_PROJECT_JQUERY</title>
+</head>
+
+<body>
+  
+  <!-- <iframe  width="100%"  height="400px" src="https://www.csswinner.com/"></iframe> -->
+
+  <section id="loading">
+    <span class="loader"></span>
+  </section>
+
+  <div id="sideBar">
+    <div id="colorBox">
+      <h4>chooes your color :</h4>
+      <div class="color-item"></div>
+      <div class="color-item"></div>
+      <div class="color-item"></div>
+      <div class="color-item"></div>
+      <div class="color-item"></div>
+      <div class="color-item"></div>
+    </div>
+
+    <i id="sideBarToggle" class="fa-solid fa-gear"></i>
+
+  </div>
+
+  <button id="btnUp" class="btn btn-danger rounded">
+    <i class="fa-solid fa-arrow-up"></i> </button>
+
+  <div id="home">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div id="mainNav" class="mainNav container-fluid  fixed-top">
+          <a class="navbar-brand text-white" href="#">OSAKA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#home">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#service">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#work">WORK</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">PRICE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">CLIENTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="https://google.com">Google</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+
+      <div class="caption">
+        <div>
+          <h4 class="text-white " id="element"></h4>
+        </div>
+        
+        <h4 class="text-white mb-4 change">Developre, Graphics & Web Design</h4>
+        <div class="icons mb-3">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-twitter"></i>
+
+        </div>
+        <p class="text-danger">VEW PORTFOLIO </p>
+      </div>
+    </header>
+  </div>
+
+
+
+
+
+  <section id="about">
+
+    <div class="headAbout d-flex justify-content-center pt-5 ">
+      <h1 class="change text large-text fs-1 position-relative">ABOUT</h1>
+      <h4 class="position-absolute pt-2">ABOUT</h4>
+    </div>
+
+    <div class="d-flex justify-content-center mt-5">
+      <p class="change">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, minima.</p>
+    </div>
+
+    <div class="container mt-5 flex-nowrap">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="images/me.jpg" alt="" srcset="">
+        </div>
+        <div class="col-md-8 robin">
+          <h5>Robin Steel</h5>
+          <h5 class="robinh">Creative ui/ux Designer, Developer</h5>
+          <p class="change">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, tempore illum? Nam quis
+            quod doloremque, possimus et ut soluta. Sequi rem porro perspiciatis odit magni maxime voluptas aut,
+            asperiores quod pariatur optio voluptate nihil consectetur necessitatibus velit esse officiis distinctio.
+            Facilis soluta blanditiis ipsa fugiat eligendi laudantium dolorum quos inventore?</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </section>
+
+
+  <section id="service">
+    <div class="headAbout d-flex justify-content-center pt-5 ">
+      <h1 class="text large-text fs-1 text-secondary position-relative change">SERVICE</h1>
+      <h4 class="position-absolute text-white pt-2">SERVICE</h4>
+    </div>
+
+    <div class="d-flex justify-content-center mt-5">
+      <p class="change">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, minima.</p>
+    </div>
+
+    <div class="container mt-5 text-center">
+
+      <div class="row">
+
+        <div class="col-md-4 d-flex justify-content-center flex-column ">
+
+          <div class="servise-item bg-white p-5 position-relative">
+            <span class="icon position-absolute d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-anchor"></i>
+            </span>
+            <h4 class="m-auto position-relative py-3">BRANDING</h4>
+            <p class="pt-2 change">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, magni accusamus
+              necessitatibus.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex justify-content-center flex-column ">
+
+          <div class="servise-item bg-white p-5 position-relative">
+            <span class="icon position-absolute d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </span>
+
+            <h4 class="m-auto position-relative py-3">BRANDING</h4>
+            <p class="pt-2 change">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, magni accusamus
+              necessitatibus.</p>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center flex-column ">
+
+          <div class="servise-item bg-white p-5 position-relative">
+            <span class="icon position-absolute d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-anchor"></i>
+            </span>
+            <h4 class="m-auto position-relative py-3">BRANDING</h4>
+            <p class="pt-2 change">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, magni accusamus
+              necessitatibus.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex justify-content-center flex-column ">
+
+          <div class="servise-item bg-white p-5 position-relative">
+            <span class="icon position-absolute d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-anchor"></i>
+            </span>
+            <h4 class="m-auto position-relative py-3">BRANDING</h4>
+            <p class="pt-2 change">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, magni accusamus
+              necessitatibus.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex justify-content-center flex-column ">
+
+          <div class="servise-item bg-white p-5 position-relative">
+            <span class="icon position-absolute d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-code"></i>
+            </span>
+
+            <h4 class="m-auto position-relative py-3">BRANDING</h4>
+            <p class="pt-2 change">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, magni accusamus
+              necessitatibus.</p>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center flex-column ">
+
+          <div class="servise-item bg-white p-5 position-relative">
+            <span class="icon position-absolute d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-chart-area"></i>
+            </span>
+            <h4 class="m-auto position-relative py-3">BRANDING</h4>
+            <p class="pt-2 change">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, magni accusamus
+              necessitatibus.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <section id="work">
+    <div class="headAbout d-flex justify-content-center pt-5 ">
+      <h1 class="text large-text fs-1 position-relative change">WORK</h1>
+      <h4 class="position-absolute text-dark pt-2">WORK</h4>
+    </div>
+    <div class="d-flex justify-content-center mt-5">
+      <p class="change">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, minima.</p>
+    </div>
+
+<div class="container">
+  <div class="row captionRow">
+    
+    <div class="col-md-3 mt-5">
+      <h5>Projects</h5>
+      <h3 class="font-weight-bolder" id="projectNumber"></h3>
+    </div>
+    <div class="col-md-3 mt-5">
+      <h5>Clients</h5>
+      <h3 class="font-weight-bolder" id="clientsNumber"></h3>
+    </div>
+    <div class="col-md-3 mt-5">
+      <h5>Code</h5>
+      <h3 class="font-weight-bolder" id="codeNumber"></h3>
+
+    </div>
+    <div class="col-md-3 mt-5">
+      <h5>Coffee</h5>
+      <h3 class="font-weight-bolder" id="coffeNumber"></h3>
+
+    </div>
+
+  </div>
+</div>
+
+
+  </section>
+
+
+
+<section class="vh-100" id="time mt-5">
+  <div class="headAbout d-flex justify-content-center pt-5 ">
+    <h1 class="text large-text fs-1 position-relative change">TIME</h1>
+    <h4 class="position-absolute text-dark pt-2">TIME</h4>
+  </div>
+  <div class="d-flex justify-content-center mt-5">
+    <p class="change text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, minima.</p>
+  </div>
+
+  <div class="container">
+    <div class="row timeRow">
+      
+      <div class="col-md-4">
+        <h2 class="text-secondary">Hour</h2>
+        <h3 class="font-weight-bolder" id="hourContainer"></h3>
+      </div>
+      <div class="col-md-4">
+        <h2 class="text-secondary">Minutes</h2>
+        <h3 class="font-weight-bolder" id="minutesContainer"></h3>
+      </div>
+      <div class="col-md-4">
+        <h2 class="text-secondary">seconds</h2>
+        <h3 class="font-weight-bolder" id="seconds"></h3>
+  
+      </div>
+    
+  
+    </div>
+  </div>
+
+</section>
+
+
+
+
+<section id="skitter" class="vh-100">
+
+  <div class="skitter m-auto skitter-large">
+    <ul>
+      <li>
+        <a href="#cut"><img src="images/slide0.jpg" class="cut" /></a>
+        <div class="label_text"><p>cut</p></div>
+      </li>
+      <li>
+        <a href="#swapBlocks"><img src="images/slide1.jpg" class="swapBlocks" /></a>
+        <div class="label_text"><p>swapBlocks</p></div>
+      </li>
+      <li>
+        <a href="#swapBarsBack"><img src="images/slide2.jpg" class="swapBarsBack" /></a>
+        <div class="label_text"><p>swapBarsBack</p></div>
+      </li>
+      <li>
+        <a href="#swapBarsBack"><img src="images/slide3.jpg" class="swapBarsBack" /></a>
+        <div class="label_text"><p>swapBarsBack</p></div>
+      </li>
+      <li>
+        <a href="#swapBarsBack"><img src="images/slide5.jpg" class="swapBarsBack" /></a>
+        <div class="label_text"><p>swapBarsBack</p></div>
+      </li>
+    </ul>
+  </div>
+
+</section>
+
+
+
+<section class="vh-100 bg-dark"  id="particles-js">
+  <!-- <div id="particles-js"></div> -->
+</section>
+
+
+<section id="contacts">
+  <div class="container pt-5">
+  <img class="coursesImg" src="images/html5-css-javascript-logos-1.png" alt="" srcset="">
+  </div>
+
+</section>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <linearGradient id="grad2" x1="0%" x2="100%" y1="0%" y2="0%">
+    <!-- <stop offset="0%" stop-color="yellow" /> -->
+    <stop offset="0%" stop-color="#b06afe " />
+    <stop offset="100%" stop-color="#40a6ff" />
+  </linearGradient>
+  <path fill="url(#grad2)" fill-opacity="1" d="M0,288L48,282.7C96,277,192,267,288,234.7C384,203,480,149,576,160C672,171,768,245,864,261.3C960,277,1056,235,1152,229.3C1248,224,1344,256,1392,272L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/jquery-3.7.1.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.skitter.min.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/main.js"></script>
+
+</body> 
+
+</html>

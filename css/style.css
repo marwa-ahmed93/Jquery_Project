@@ -1,0 +1,233 @@
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+}
+
+#loading{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+
+#sideBar{
+    position: fixed;
+    top: 150px;
+    left: 0px;
+    z-index: 999;
+}
+#colorBox{
+    background-color: #ccc;
+    float: left;
+    padding: 15px;
+
+    
+}
+#sideBarToggle{
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    float: left;
+  cursor: pointer;
+}
+.color-item{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: orange;
+    cursor: pointer;
+}
+#btnUp{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 999;
+    display: none;
+}
+#home{
+    background-image: url('../images/me.jpg');
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    
+    
+}
+.icons i{
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 3px;
+    color: white;
+}
+
+.caption{
+    margin-top: 15%;
+    margin-left: 35px;
+  
+}
+#about{
+    background-image: url('../images/light_dot.jpg');
+    background-size: auto ;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    height: 100vh;
+   
+}
+#about img{
+    margin-bottom: 800px;
+    padding-bottom: 500px;
+    width: 300px;
+}
+.text{
+    font-size: 500%;
+   
+    color: rgb(236, 234, 234);
+}
+.robin{
+   font-weight: lighter;
+   padding-top: 100px;
+}
+.robin .robinh{
+    color: rgb(245, 145, 145);
+    padding-left: 20px;
+    
+}
+.robin h5 , .robin p{
+    color: rgb(151, 149, 149);
+    padding-left: 20px;
+    
+}
+.robin p{
+    margin-top: 22px;
+    font-size: large;
+}
+
+#service{
+    background-image: url('../images/dark_dot.jpg');
+    background-size: auto ;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+ 
+}
+#service p{
+   color: #969797; 
+}
+        
+.servise-item h4::after {
+    content: ""; /* Required to display the pseudo-element */
+    position: absolute; /* Position it relative to the parent */
+    /* left: 1; Align to the left */
+    left: 95px;
+    bottom: 0px; /* Position it below the text */
+    width: 20%; /* Make it as wide as the text */
+    height: 1px; /* Thickness of the underline */
+    background-color: #ff206e; /* Color of the underline */
+}
+#service .icon{
+  background-color: black;
+  padding: 15px;
+  border-radius: 50%;
+  color: white;
+  border: solid 2px white;
+  top: -22px;
+  left: 42%;
+}
+#service .col-md-4{
+    margin-bottom: 70px;
+}
+.scrolled{
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 1s;
+}
+.scrolledR{
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 1s;
+    
+}
+.loader {
+    position: relative;
+    width: 85px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#FFF 50px, transparent 0),
+                      linear-gradient(#FFF 50px, transparent 0),
+                      linear-gradient(#FFF 50px, transparent 0),
+                      linear-gradient(#FFF 50px, transparent 0),
+                      linear-gradient(#FFF 50px, transparent 0),
+                      linear-gradient(#FFF 50px, transparent 0);
+    background-position: 0px center, 15px center, 30px center, 45px center, 60px center, 75px center, 90px center;
+    animation: rikSpikeRoll 0.65s linear infinite alternate;
+  }
+@keyframes rikSpikeRoll {
+  0% { background-size: 10px 3px;}
+  16% { background-size: 10px 50px, 10px 3px, 10px 3px, 10px 3px, 10px 3px, 10px 3px}
+  33% { background-size: 10px 30px, 10px 50px, 10px 3px, 10px 3px, 10px 3px, 10px 3px}
+  50% { background-size: 10px 10px, 10px 30px, 10px 50px, 10px 3px, 10px 3px, 10px 3px}
+  66% { background-size: 10px 3px, 10px 10px, 10px 30px, 10px 50px, 10px 3px, 10px 3px}
+  83% { background-size: 10px 3px, 10px 3px,  10px 10px, 10px 30px, 10px 50px, 10px 3px}
+  100% { background-size: 10px 3px, 10px 3px, 10px 3px,  10px 10px, 10px 30px, 10px 50px}
+} 
+
+
+#contacts{
+    height: 65vh;
+    background-color: #0099ff;
+    background: linear-gradient(90deg ,#b06afe , #40a6ff) ;
+}
+
+
+#work{
+    background-image: url('../images/light_dot.jpg');
+    background-size: auto ;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    height: 100vh;
+   
+}
+#work h1 , #work p, #work h5{
+    color: rgb(182, 179, 179);
+  
+}
+.col-md-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#time h1{
+    color: rgb(182, 179, 179);
+  
+}
+#work .col-md-3{
+ 
+    align-items: center;
+   
+ 
+}
+
+.timeRow{
+    
+    padding-left: 180px;
+   
+
+}
+.timeRow h3{
+    
+    padding: 0 10px;
+   
+
+}
+/* .coursesImg{
+    z-index: 999999999;
+} */
