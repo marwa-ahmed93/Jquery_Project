@@ -105,6 +105,7 @@ body{
 
 .change{
     text-align: center;
+
 }
 
 #service{
@@ -218,4 +219,14 @@ body{
 
 .timeRow .col-md-4{
     text-align: center;
+}
+.text{
+    color: rgb(189, 183, 183);
+}
+h1
+{
+    font-size: 3rem;
+    font-weight: 800;
+ 
+    /* color: #969797; */
 }
