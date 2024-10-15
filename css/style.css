@@ -1,7 +1,12 @@
-
+*{
+    box-sizing: border-box;
+}
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+ 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 #loading{
@@ -16,8 +21,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-    
 
 #sideBar{
     position: fixed;
@@ -69,9 +72,10 @@ body{
     color: white;
     padding: 10px 12px;
 }
-.icon i{
-  /* padding: 8px 18px; */
+.icons .youtub , .icons .twitter{
+  padding: 10px 10px;
 }
+
 .caption{
     margin-top: 15%;
     margin-left: 35px;
@@ -82,39 +86,25 @@ body{
     background-size: auto ;
     /* background-repeat: no-repeat; */
     background-position: center;
-    height: 100vh;
+   
    
 }
+
+.test{
+    width: 80%;
+   
+ margin: auto;
+
+}
+.aboutCaption{
+    padding-top: 30px;
+}
+.aboutCaption .pCaption{
+    color: #ff206e;
+}
+
 .change{
     text-align: center;
-}
-#about img{
-    margin-bottom: 800px;
-    padding-bottom: 500px;
-    width: 300px;
-}
-.text{
-    font-size: 500%;
-   
-    color: rgb(236, 234, 234);
-}
-.robin{
-   font-weight: lighter;
-   padding-top: 100px;
-}
-.robin .robinh{
-    color: rgb(245, 145, 145);
-    padding-left: 20px;
-    
-}
-.robin h5 , .robin p{
-    color: rgb(151, 149, 149);
-    padding-left: 20px;
-    
-}
-.robin p{
-    margin-top: 22px;
-    font-size: large;
 }
 
 #service{
@@ -205,11 +195,6 @@ body{
     color: rgb(182, 179, 179);
   
 }
-/* .col-md-3{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-} */
 
  .captionRow ,.col-md-3{
     text-align: center;
@@ -230,13 +215,7 @@ body{
 .timeP , .workP{
     text-align: center;
 }
-/* .timeRow{
-    
-    padding-left: 180px;
-   
 
-} */
 .timeRow .col-md-4{
     text-align: center;
 }
-
