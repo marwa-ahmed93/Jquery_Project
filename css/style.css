@@ -1,7 +1,7 @@
 
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    overflow: hidden;
+  
 }
 
 #loading{
@@ -59,17 +59,19 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
-    
-    
+
 }
 .icons i{
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 50%;
     border: 1px solid white;
     margin: 3px;
     color: white;
+    padding: 10px 12px;
 }
-
+.icon i{
+  /* padding: 8px 18px; */
+}
 .caption{
     margin-top: 15%;
     margin-left: 35px;
@@ -82,6 +84,9 @@ body{
     background-position: center;
     height: 100vh;
    
+}
+.change{
+    text-align: center;
 }
 #about img{
     margin-bottom: 800px;
@@ -200,11 +205,18 @@ body{
     color: rgb(182, 179, 179);
   
 }
-.col-md-3{
+/* .col-md-3{
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
+} */
+
+ .captionRow ,.col-md-3{
+    text-align: center;
+ }
+ .headAbout{
+    text-align: center;
+ }
 #time h1{
     color: rgb(182, 179, 179);
   
@@ -215,19 +227,16 @@ body{
    
  
 }
-
-.timeRow{
+.timeP , .workP{
+    text-align: center;
+}
+/* .timeRow{
     
     padding-left: 180px;
    
 
-}
-.timeRow h3{
-    
-    padding: 0 10px;
-   
-
-}
-/* .coursesImg{
-    z-index: 999999999;
 } */
+.timeRow .col-md-4{
+    text-align: center;
+}
+
